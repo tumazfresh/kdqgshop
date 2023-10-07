@@ -1,0 +1,236 @@
+[24-Sep-2023 02:55:19 UTC] PHP Warning:  Undefined array key "product_name" in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php on line 8
+[24-Sep-2023 02:55:19 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php on line 8
+[24-Sep-2023 02:55:19 UTC] PHP Warning:  Undefined array key "product_desc" in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php on line 9
+[24-Sep-2023 02:55:19 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php on line 9
+[24-Sep-2023 02:55:19 UTC] PHP Warning:  Undefined array key "Status" in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php on line 14
+[24-Sep-2023 02:55:19 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php on line 14
+[24-Sep-2023 02:55:19 UTC] PHP Warning:  Undefined array key "image_01" in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php on line 16
+[24-Sep-2023 02:55:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php on line 16
+[24-Sep-2023 02:55:19 UTC] PHP Warning:  Undefined array key "image_02" in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php on line 17
+[24-Sep-2023 02:55:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php on line 17
+[24-Sep-2023 02:55:19 UTC] PHP Warning:  Undefined array key "image_03" in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php on line 18
+[24-Sep-2023 02:55:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php on line 18
+[24-Sep-2023 02:55:19 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php on line 20
+[24-Sep-2023 02:55:19 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php on line 21
+[24-Sep-2023 02:55:19 UTC] PHP Deprecated:  basename(): Passing null to parameter #1 ($path) of type string is deprecated in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php on line 22
+[24-Sep-2023 02:55:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'ptsub' in 'field list' in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php:25
+Stack trace:
+#0 /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php(25): mysqli_query(Object(mysqli), 'INSERT into `tb...')
+#1 {main}
+  thrown in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsserver.php on line 25
+[24-Sep-2023 03:41:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::close() in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_item_details.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_item_details.php on line 16
+[24-Sep-2023 04:43:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 04:43:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 04:43:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 89
+[24-Sep-2023 04:43:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 93
+[24-Sep-2023 04:43:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 112
+[24-Sep-2023 04:43:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 116
+[24-Sep-2023 04:43:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[24-Sep-2023 04:43:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[24-Sep-2023 04:43:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 04:43:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 04:43:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 89
+[24-Sep-2023 04:43:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 93
+[24-Sep-2023 04:43:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 112
+[24-Sep-2023 04:43:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 116
+[24-Sep-2023 04:43:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[24-Sep-2023 04:43:45 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[24-Sep-2023 04:43:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 04:43:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 04:43:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 89
+[24-Sep-2023 04:43:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 93
+[24-Sep-2023 04:43:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 112
+[24-Sep-2023 04:43:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 116
+[24-Sep-2023 04:43:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[24-Sep-2023 04:43:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[24-Sep-2023 04:44:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 04:44:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 04:44:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 89
+[24-Sep-2023 04:44:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 93
+[24-Sep-2023 04:44:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 112
+[24-Sep-2023 04:44:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 116
+[24-Sep-2023 04:44:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[24-Sep-2023 04:44:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[24-Sep-2023 04:45:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 04:45:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 04:45:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 89
+[24-Sep-2023 04:45:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 93
+[24-Sep-2023 04:45:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 112
+[24-Sep-2023 04:45:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 116
+[24-Sep-2023 04:45:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[24-Sep-2023 04:45:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[24-Sep-2023 04:50:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 04:50:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 04:50:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 89
+[24-Sep-2023 04:50:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 93
+[24-Sep-2023 04:50:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 112
+[24-Sep-2023 04:50:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 116
+[24-Sep-2023 04:50:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[24-Sep-2023 04:50:15 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[24-Sep-2023 04:53:42 UTC] PHP Warning:  Undefined array key "id" in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 5
+[24-Sep-2023 04:55:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 04:55:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 04:55:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 89
+[24-Sep-2023 04:55:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 93
+[24-Sep-2023 04:55:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 112
+[24-Sep-2023 04:55:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 116
+[24-Sep-2023 04:55:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[24-Sep-2023 04:55:06 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[24-Sep-2023 05:01:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 05:01:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 05:01:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 89
+[24-Sep-2023 05:01:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 93
+[24-Sep-2023 05:01:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 112
+[24-Sep-2023 05:01:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 116
+[24-Sep-2023 05:01:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[24-Sep-2023 05:01:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[24-Sep-2023 05:02:22 UTC] PHP Warning:  Undefined array key "id" in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 5
+[24-Sep-2023 05:02:41 UTC] PHP Warning:  Undefined array key "id" in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 5
+[24-Sep-2023 09:17:23 UTC] PHP Warning:  Undefined array key "id" in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 5
+[24-Sep-2023 10:11:07 UTC] PHP Warning:  Undefined array key "id" in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 5
+[24-Sep-2023 10:20:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php:14
+Stack trace:
+#0 /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php(14): mysqli_stmt->bind_param('i', NULL)
+#1 {main}
+  thrown in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 14
+[24-Sep-2023 10:22:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 10:22:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 64
+[24-Sep-2023 10:22:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 89
+[24-Sep-2023 10:22:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 93
+[24-Sep-2023 10:22:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 112
+[24-Sep-2023 10:22:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 116
+[24-Sep-2023 10:22:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[24-Sep-2023 10:22:47 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/fetch_update_details.php on line 121
+[25-Sep-2023 12:46:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/updatefetch.php on line 53
+[25-Sep-2023 12:46:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/updatefetch.php on line 53
+[25-Sep-2023 12:46:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/updatefetch.php on line 78
+[25-Sep-2023 12:46:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/updatefetch.php on line 82
+[25-Sep-2023 12:46:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/updatefetch.php on line 101
+[25-Sep-2023 12:46:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/updatefetch.php on line 105
+[25-Sep-2023 12:46:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/updatefetch.php on line 110
+[25-Sep-2023 12:46:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/updatefetch.php on line 110
+[25-Sep-2023 14:42:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',`Stock`='12',`Price`='45',`Status`='Inactive',`Branch`='Default' WHERE ID=212' at line 1 in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php:25
+Stack trace:
+#0 /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php(25): mysqli_query(Object(mysqli), 'UPDATE `tb_prod...')
+#1 {main}
+  thrown in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 25
+[25-Sep-2023 14:50:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'storage_gb' in 'field list' in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php:25
+Stack trace:
+#0 /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php(25): mysqli_query(Object(mysqli), 'UPDATE `tb_prod...')
+#1 {main}
+  thrown in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 25
+[25-Sep-2023 15:58:37 UTC] PHP Warning:  Undefined variable $targetfa in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 85
+[25-Sep-2023 15:58:37 UTC] PHP Deprecated:  move_uploaded_file(): Passing null to parameter #2 ($to) of type string is deprecated in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 85
+[25-Sep-2023 15:58:37 UTC] PHP Warning:  Undefined variable $targetfea in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 91
+[25-Sep-2023 15:58:37 UTC] PHP Deprecated:  move_uploaded_file(): Passing null to parameter #2 ($to) of type string is deprecated in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 91
+[25-Sep-2023 15:58:37 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpqKwOZN' to '' in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 91
+[25-Sep-2023 15:58:37 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php:91
+Stack trace:
+#0 /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php(91): move_uploaded_file('/tmp/phpqKwOZN', '')
+#1 {main}
+  thrown in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 91
+[25-Sep-2023 17:22:53 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/eiomraco/kdqgshop.eiomra.com/dbconn.php on line 2
+[25-Sep-2023 17:22:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php:1) in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 65
+[25-Sep-2023 17:42:34 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/eiomraco/kdqgshop.eiomra.com/dbconn.php on line 2
+[25-Sep-2023 17:42:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0',`Stock`='200',`Price`='43',`Status`='Active',`Branch`='Default' WHERE `id`...' at line 1 in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php:60
+Stack trace:
+#0 /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php(60): mysqli_query(Object(mysqli), 'UPDATE `tb_prod...')
+#1 {main}
+  thrown in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 60
+[25-Sep-2023 17:45:23 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/eiomraco/kdqgshop.eiomra.com/dbconn.php on line 2
+[25-Sep-2023 17:45:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php:1) in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 71
+[25-Sep-2023 17:48:39 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/eiomraco/kdqgshop.eiomra.com/dbconn.php on line 2
+[25-Sep-2023 17:48:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php:1) in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 71
+[25-Sep-2023 17:49:27 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/eiomraco/kdqgshop.eiomra.com/dbconn.php on line 2
+[25-Sep-2023 17:49:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0',`Stock`='200',`Price`='43',`Status`='value=',`Branch`='Default' WHERE `id`...' at line 1 in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php:60
+Stack trace:
+#0 /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php(60): mysqli_query(Object(mysqli), 'UPDATE `tb_prod...')
+#1 {main}
+  thrown in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 60
+[25-Sep-2023 17:54:37 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/eiomraco/kdqgshop.eiomra.com/dbconn.php on line 2
+[25-Sep-2023 18:15:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/eiomraco/kdqgshop.eiomra.com/dbconn.php on line 2
+[25-Sep-2023 18:18:30 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/eiomraco/kdqgshop.eiomra.com/dbconn.php on line 2
+[25-Sep-2023 18:18:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php:1) in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 79
+[25-Sep-2023 18:29:52 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/eiomraco/kdqgshop.eiomra.com/dbconn.php on line 2
+[25-Sep-2023 18:29:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php:1) in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 55
+[26-Sep-2023 08:48:25 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/eiomraco/kdqgshop.eiomra.com/dbconn.php on line 2
+[26-Sep-2023 08:48:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php:1) in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 55
+[26-Sep-2023 08:52:30 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "image_01" in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 20
+[26-Sep-2023 08:52:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php:22) in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 60
+[26-Sep-2023 08:57:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php:24) in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 63
+[26-Sep-2023 09:06:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php:28) in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 67
+[26-Sep-2023 09:07:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php:28) in /home/eiomraco/kdqgshop.eiomra.com/adminserver/productupdateserver.php on line 67
+[26-Sep-2023 13:56:05 UTC] PHP Warning:  Undefined variable $_GeT in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsearch.php on line 2
+[26-Sep-2023 13:56:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsearch.php on line 2
+[26-Sep-2023 13:56:05 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsearch.php on line 14
+[26-Sep-2023 13:56:05 UTC] PHP Warning:  Undefined variable $db in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsearch.php on line 112
+[26-Sep-2023 13:56:05 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsearch.php:112
+Stack trace:
+#0 /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsearch.php(112): mysqli_query(NULL, 'SELECT COUNT(*)...')
+#1 {main}
+  thrown in /home/eiomraco/kdqgshop.eiomra.com/adminserver/adminproductsearch.php on line 112
+[30-Sep-2023 16:24:57 UTC] PHP Warning:  Undefined array key "id" in /home/eiomraco/kdqgshop.eiomra.com/adminserver/loginserver.php on line 14
+[30-Sep-2023 16:24:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.eiomra.com/adminserver/loginserver.php:14) in /home/eiomraco/kdqgshop.eiomra.com/adminserver/loginserver.php on line 18
+[01-Oct-2023 16:19:47 UTC] PHP Warning:  Undefined array key "id" in /home/eiomraco/kdqgshop.com/adminserver/updatebrandfetch.php on line 5
+[02-Oct-2023 13:55:30 UTC] PHP Warning:  Undefined array key "id" in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 5
+[02-Oct-2023 13:55:46 UTC] PHP Warning:  Undefined array key "id" in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 5
+[02-Oct-2023 14:55:05 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 59
+[02-Oct-2023 14:57:24 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 59
+[02-Oct-2023 15:30:42 UTC] PHP Warning:  Undefined array key "subcategory" in /home/eiomraco/kdqgshop.com/adminserver/productupdateserver.php on line 8
+[02-Oct-2023 15:30:42 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/eiomraco/kdqgshop.com/adminserver/productupdateserver.php on line 8
+[02-Oct-2023 15:30:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.com/adminserver/productupdateserver.php:8) in /home/eiomraco/kdqgshop.com/adminserver/productupdateserver.php on line 85
+[02-Oct-2023 15:40:11 UTC] PHP Warning:  Undefined array key "subcategory" in /home/eiomraco/kdqgshop.com/adminserver/adminproductsserver.php on line 8
+[02-Oct-2023 15:40:11 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/eiomraco/kdqgshop.com/adminserver/adminproductsserver.php on line 8
+[02-Oct-2023 15:40:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.com/adminserver/adminproductsserver.php:8) in /home/eiomraco/kdqgshop.com/adminserver/adminproductsserver.php on line 62
+[02-Oct-2023 15:50:17 UTC] PHP Warning:  Undefined array key "id" in /home/eiomraco/kdqgshop.com/adminserver/deletefetch.php on line 5
+[02-Oct-2023 15:56:25 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/updatefetch.php on line 147
+[02-Oct-2023 15:56:25 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 59
+[03-Oct-2023 13:50:56 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 59
+[03-Oct-2023 13:50:56 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/updatefetch.php on line 147
+[03-Oct-2023 14:37:37 UTC] PHP Notice:  unserialize(): Error at offset 0 of 3 bytes in /home/eiomraco/kdqgshop.com/adminserver/updatefetch.php on line 119
+[03-Oct-2023 14:37:37 UTC] PHP Notice:  unserialize(): Error at offset 0 of 8 bytes in /home/eiomraco/kdqgshop.com/adminserver/updatefetch.php on line 174
+[03-Oct-2023 14:37:37 UTC] PHP Notice:  unserialize(): Error at offset 0 of 3 bytes in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 31
+[03-Oct-2023 14:37:37 UTC] PHP Notice:  unserialize(): Error at offset 0 of 8 bytes in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 59
+[03-Oct-2023 14:37:42 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 59
+[03-Oct-2023 14:37:42 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/updatefetch.php on line 174
+[03-Oct-2023 14:38:01 UTC] PHP Notice:  unserialize(): Error at offset 0 of 5 bytes in /home/eiomraco/kdqgshop.com/adminserver/updatefetch.php on line 119
+[03-Oct-2023 14:38:01 UTC] PHP Notice:  unserialize(): Error at offset 0 of 5 bytes in /home/eiomraco/kdqgshop.com/adminserver/updatefetch.php on line 174
+[03-Oct-2023 14:38:01 UTC] PHP Notice:  unserialize(): Error at offset 0 of 5 bytes in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 31
+[03-Oct-2023 14:38:01 UTC] PHP Notice:  unserialize(): Error at offset 0 of 5 bytes in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 59
+[03-Oct-2023 14:38:09 UTC] PHP Notice:  unserialize(): Error at offset 0 of 5 bytes in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 31
+[03-Oct-2023 14:38:09 UTC] PHP Notice:  unserialize(): Error at offset 0 of 5 bytes in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 59
+[03-Oct-2023 14:38:09 UTC] PHP Notice:  unserialize(): Error at offset 0 of 5 bytes in /home/eiomraco/kdqgshop.com/adminserver/updatefetch.php on line 119
+[03-Oct-2023 14:38:09 UTC] PHP Notice:  unserialize(): Error at offset 0 of 5 bytes in /home/eiomraco/kdqgshop.com/adminserver/updatefetch.php on line 174
+[03-Oct-2023 14:38:20 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/updatefetch.php on line 174
+[03-Oct-2023 14:38:20 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 59
+[03-Oct-2023 14:38:28 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/updatefetch.php on line 174
+[03-Oct-2023 14:38:28 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 59
+[03-Oct-2023 14:38:35 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 59
+[03-Oct-2023 14:38:35 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/updatefetch.php on line 174
+[03-Oct-2023 15:54:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/eiomraco/kdqgshop.com/adminserver/brandupdateserver.php:17
+Stack trace:
+#0 /home/eiomraco/kdqgshop.com/adminserver/brandupdateserver.php(17): mysqli_stmt->bind_param('s', 'ACERR', '9')
+#1 {main}
+  thrown in /home/eiomraco/kdqgshop.com/adminserver/brandupdateserver.php on line 17
+[05-Oct-2023 17:05:03 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 59
+[05-Oct-2023 17:05:03 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/updatefetch.php on line 174
+[05-Oct-2023 17:06:57 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/updatefetch.php on line 174
+[05-Oct-2023 17:06:57 UTC] PHP Notice:  unserialize(): Error at offset 0 of 1 bytes in /home/eiomraco/kdqgshop.com/adminserver/fetch_item_details.php on line 59
+[05-Oct-2023 17:35:06 UTC] PHP Warning:  Undefined array key "Price" in /home/eiomraco/kdqgshop.com/adminserver/adminproductsserver.php on line 14
+[05-Oct-2023 17:35:06 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/eiomraco/kdqgshop.com/adminserver/adminproductsserver.php on line 14
+[05-Oct-2023 17:35:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.com/adminserver/adminproductsserver.php:14) in /home/eiomraco/kdqgshop.com/adminserver/adminproductsserver.php on line 62
+[05-Oct-2023 17:36:49 UTC] PHP Warning:  Undefined array key "Price" in /home/eiomraco/kdqgshop.com/adminserver/adminproductsserver.php on line 14
+[05-Oct-2023 17:36:49 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/eiomraco/kdqgshop.com/adminserver/adminproductsserver.php on line 14
+[05-Oct-2023 17:36:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.com/adminserver/adminproductsserver.php:14) in /home/eiomraco/kdqgshop.com/adminserver/adminproductsserver.php on line 62
+[06-Oct-2023 01:52:17 UTC] PHP Warning:  Undefined array key "category" in /home/eiomraco/kdqgshop.com/adminserver/admincategoryserver.php on line 6
+[06-Oct-2023 01:52:17 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/eiomraco/kdqgshop.com/adminserver/admincategoryserver.php on line 6
+[06-Oct-2023 01:52:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.com/adminserver/admincategoryserver.php:6) in /home/eiomraco/kdqgshop.com/adminserver/admincategoryserver.php on line 24
+[06-Oct-2023 02:22:06 UTC] PHP Warning:  Undefined array key "brand_name" in /home/eiomraco/kdqgshop.com/adminserver/brandupdateserver.php on line 6
+[06-Oct-2023 02:22:06 UTC] PHP Deprecated:  mysqli_real_escape_string(): Passing null to parameter #2 ($string) of type string is deprecated in /home/eiomraco/kdqgshop.com/adminserver/brandupdateserver.php on line 6
+[06-Oct-2023 02:22:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.com/adminserver/brandupdateserver.php:6) in /home/eiomraco/kdqgshop.com/adminserver/brandupdateserver.php on line 31

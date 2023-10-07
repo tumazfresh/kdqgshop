@@ -1,0 +1,74 @@
+
+/* terms-and-conditions */
+
+
+.TAC {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.TAC-content {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.TAC-content h2 {
+    margin-top:50px;
+    margin-bottom: 30px;
+    color: #368BC1;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold
+}
+.TAC-content p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.TAC-container {
+  margin: 10px;
+  padding: 20px;
+  background-color: #f2f8ff;
+  border-radius: 5px;
+  position: relative;
+
+}
+
+.TAC-container h2 {
+  font-size: 24px;
+  color: #368BC1;
+  margin-bottom: 10px;
+  text-align: left;
+ 
+}
+
+.TAC-container p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+
+}
+
+.TAC-container .custom-bullet {
+  position: relative;
+  margin-right: 8px;
+}
+
+.TAC-container .custom-bullet:before {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: #368BC1;
+  border-radius: 50%;
+}
+
+
+

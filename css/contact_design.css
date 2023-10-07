@@ -1,0 +1,165 @@
+/* contact */
+.contact-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h2{
+    margin-top:50px;
+    margin-bottom: 30px;
+    color: #368BC1;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold
+}
+.contact-form h2 {
+    color: #333333;
+}
+
+.contact-content {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-content h2 {
+    margin-top:50px;
+    margin-bottom: 30px;
+    color: #368BC1;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold
+}
+
+.contact-content p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.contact-info {
+    display: inline-block;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    width: 50%;
+}
+
+.contact-info .box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-info .box:last-child {
+    margin-bottom: 0;
+}
+
+.icon1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #5AA2D3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.icon1 i {
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon1 i.fas.fa-map-marker-alt:before {
+    content: "\f3c5";
+}
+
+.contact-info .box .text {
+    margin-left: 10px;
+    text-align: left;
+    width: calc(70% - 100px);
+    display: flex;
+    flex-direction: column; 
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.contact-form {
+    max-width: 1000px;
+    padding: 50px;
+    padding-top: 30px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: #ffffff;
+    margin: 30px auto;
+}
+
+.contact-form h2 {
+    padding: 20px;
+    padding-top: 10px;
+
+}
+
+.form-group {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.form-group input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.form-group textarea {
+    height: 250px;
+}
+
+.success-message {
+    text-align: center;
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}

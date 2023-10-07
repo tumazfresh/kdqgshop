@@ -1,0 +1,58 @@
+[01-Oct-2023 05:54:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'eiomraco_ssap.blog' doesn't exist in /home/eiomraco/joyfm965.com/api/blog.php:16
+Stack trace:
+#0 /home/eiomraco/joyfm965.com/api/blog.php(16): mysqli->query('SELECT * FROM b...')
+#1 {main}
+  thrown in /home/eiomraco/joyfm965.com/api/blog.php on line 16
+[01-Oct-2023 05:54:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'eiomraco_ssap.blog' doesn't exist in /home/eiomraco/joyfm965.com/api/blog.php:16
+Stack trace:
+#0 /home/eiomraco/joyfm965.com/api/blog.php(16): mysqli->query('SELECT * FROM b...')
+#1 {main}
+  thrown in /home/eiomraco/joyfm965.com/api/blog.php on line 16
+[01-Oct-2023 05:56:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'eiomraco_ssap.post' doesn't exist in /home/eiomraco/joyfm965.com/api/blog.php:16
+Stack trace:
+#0 /home/eiomraco/joyfm965.com/api/blog.php(16): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/eiomraco/joyfm965.com/api/blog.php on line 16
+[01-Oct-2023 05:56:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'eiomraco_ssap.post' doesn't exist in /home/eiomraco/joyfm965.com/api/blog.php:16
+Stack trace:
+#0 /home/eiomraco/joyfm965.com/api/blog.php(16): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/eiomraco/joyfm965.com/api/blog.php on line 16
+[01-Oct-2023 05:56:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'eiomraco_ssap.post' doesn't exist in /home/eiomraco/joyfm965.com/api/blog.php:16
+Stack trace:
+#0 /home/eiomraco/joyfm965.com/api/blog.php(16): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/eiomraco/joyfm965.com/api/blog.php on line 16
+[01-Oct-2023 05:57:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'eiomraco_ssap.post' doesn't exist in /home/eiomraco/joyfm965.com/api/blog.php:16
+Stack trace:
+#0 /home/eiomraco/joyfm965.com/api/blog.php(16): mysqli->query('SELECT * FROM p...')
+#1 {main}
+  thrown in /home/eiomraco/joyfm965.com/api/blog.php on line 16
+[01-Oct-2023 06:02:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'eiomraco_ssap.blog' doesn't exist in /home/eiomraco/joyfm965.com/api/post.php:13
+Stack trace:
+#0 /home/eiomraco/joyfm965.com/api/post.php(13): mysqli->prepare('SELECT * FROM b...')
+#1 {main}
+  thrown in /home/eiomraco/joyfm965.com/api/post.php on line 13
+[01-Oct-2023 06:52:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'eiomraco_ssap.blog' doesn't exist in /home/eiomraco/kdqgshop.com/api/post.php:13
+Stack trace:
+#0 /home/eiomraco/kdqgshop.com/api/post.php(13): mysqli->prepare('SELECT * FROM b...')
+#1 {main}
+  thrown in /home/eiomraco/kdqgshop.com/api/post.php on line 13
+[01-Oct-2023 06:52:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'eiomraco_ssap.blog' doesn't exist in /home/eiomraco/kdqgshop.com/api/post.php:13
+Stack trace:
+#0 /home/eiomraco/kdqgshop.com/api/post.php(13): mysqli->prepare('SELECT * FROM b...')
+#1 {main}
+  thrown in /home/eiomraco/kdqgshop.com/api/post.php on line 13
+[01-Oct-2023 06:52:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'eiomraco_ssap.blog' doesn't exist in /home/eiomraco/kdqgshop.com/api/post.php:13
+Stack trace:
+#0 /home/eiomraco/kdqgshop.com/api/post.php(13): mysqli->prepare('SELECT * FROM b...')
+#1 {main}
+  thrown in /home/eiomraco/kdqgshop.com/api/post.php on line 13
+[01-Oct-2023 07:18:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.com/api/blog.php:28) in /home/eiomraco/kdqgshop.com/api/blog.php on line 34
+[01-Oct-2023 07:18:16 UTC] PHP Warning:  Undefined variable $json_response in /home/eiomraco/kdqgshop.com/api/blog.php on line 37
+[01-Oct-2023 07:18:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.com/api/blog.php:28) in /home/eiomraco/kdqgshop.com/api/blog.php on line 34
+[01-Oct-2023 07:18:18 UTC] PHP Warning:  Undefined variable $json_response in /home/eiomraco/kdqgshop.com/api/blog.php on line 37
+[01-Oct-2023 07:20:28 UTC] PHP Warning:  Undefined variable $json_response in /home/eiomraco/kdqgshop.com/api/blog.php on line 38
+[01-Oct-2023 07:20:29 UTC] PHP Warning:  Undefined variable $json_response in /home/eiomraco/kdqgshop.com/api/blog.php on line 38
+[01-Oct-2023 07:21:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.com/api/blog.php:23) in /home/eiomraco/kdqgshop.com/api/blog.php on line 28
+[01-Oct-2023 07:23:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/eiomraco/kdqgshop.com/api/blog.php:18) in /home/eiomraco/kdqgshop.com/api/blog.php on line 21

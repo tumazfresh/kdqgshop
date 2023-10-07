@@ -1,0 +1,318 @@
+/* checkout */
+.display-orders {
+  padding: 20px;
+}
+
+.display-orders h1 {
+  margin-bottom: 20px;
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #ddd; 
+  padding: 10px; 
+}
+
+.product-image {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+}
+
+.product-details {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.product-name {
+  font-size: 24px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.product-details p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.product-details span {
+  font-size: 14px;
+  color: #888;
+}
+
+.grand-total {
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.grand-total span {
+  display: inline-block;
+  background-color: #f7f2f2;
+  color: #e63333;
+  font-weight: bold;
+  padding: 5px 10px; 
+  border-radius: 8px; 
+}
+
+
+.checkout-container, .display-orders {
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .cash-on-delivery-reminder {
+    color: #555;
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 20px;
+    display: none;
+  }
+
+  .cash-on-delivery {
+    color: red;
+    text-decoration: underline;
+  }
+
+  .form {
+    margin-top: 30px;
+  }
+
+  .section-header {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .section-header h2 {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .section-header h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .column {
+    flex: 1;
+  }
+
+  .inputBox {
+    margin-bottom: 20px;
+  }
+  
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .dropbtn {
+        display: none; 
+    }
+    
+    .delivery-option,
+    .payment-option {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        cursor: pointer;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin: 5px 0;
+    }
+    
+    .dropbtn:checked + .delivery-option {
+        background-color:#add8e6;
+    }
+    
+    .dropbtn:checked + .payment-option {
+        background-color: #ffcc00;
+    }
+    
+    .delivery-option i,
+    .payment-option i {
+        margin-right: 10px;
+    }
+    
+    .delivery-option:hover {
+        background-color:#add8e6;
+    }
+    .payment-option:hover {
+        background-color: #ffcc00;
+    }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+  }
+
+  button[type="submit"],
+  button.receipt-button {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+
+  }
+
+  button.receipt-button {
+    background-color: #5666c1;
+  }
+
+  button[type="submit"]:hover,
+  button.receipt-button:hover {
+    background-color: #ccc;
+  }
+
+  .payment-methods {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+
+  }
+
+  .payment-method {
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .payment-method img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  .shipping-option {
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  .shipping-option label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .shipping-option .date-time-picker {
+    display: flex;
+    align-items: center;
+  }
+  
+  .shipping-option input[type="datetime-local"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  /* Responsive Styles */
+
+  @media (max-width: 767px) {
+    .checkout-container {
+      max-width: 100%;
+      padding: 20px;
+    }
+
+    .row {
+      flex-direction: column;
+    }
+
+    .column {
+      margin-bottom: 20px;
+    }
+  }
+  
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000; 
+}
+
+.modal-content {
+  background-color: #fff;
+  max-width: 80%; 
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+
+.modal-header {
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #555; 
+  transition: color 0.3s;
+}
+
+.modal-close:hover {
+  color: #333; 
+}
+
+.buttons {
+    text-align: center; 
+  }
+
+  #place-order-button {
+    background-color: #368BC1;
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+
+  #place-order-button:hover {
+    background-color: #4FAEDD;
+  }

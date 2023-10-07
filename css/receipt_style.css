@@ -1,0 +1,234 @@
+/* order-receipt */
+.order-receipt-container {
+  max-width: 90%;
+  margin: 50px auto;
+  background-color: #f9f9f9;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left; 
+}
+
+.order-receipt-container h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.order-receipt-container p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.customer-table-container {
+  margin-bottom: 30px;
+}
+
+.customer-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customer-table th,
+.customer-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.customer-table th {
+  font-weight: bold;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.customer-table td {
+  background-color: #fff;
+  text-align: left; 
+  padding-left: 10px; 
+}
+
+.item-table-container {
+  margin-top: 20px;
+}
+
+.item-table-container .product-image {
+  max-width: 100px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+.item-table-container table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.item-table th,
+.item-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.item-table th {
+  font-weight: bold;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.item-table td {
+  background-color: #fff;
+  text-align: left; 
+  padding-left: 10px; 
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item-table td:nth-child(3),
+.item-table td:nth-child(8) {
+  text-align: center; 
+}
+
+/* Add space between buttons */
+.proceed-to-home-button-container {
+  text-align: right;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.proceed-to-home-button {
+  display: inline-block;
+  background-color: #368BC1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.proceed-to-home-button:hover {
+  background-color: #89BAE6;
+  color: #fff;
+}
+
+.cancel-order-button {
+  display: inline-block;
+  background-color: #ad1717;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.cancel-order-button:hover {
+  background-color: #dfe0ea;
+}
+
+
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .table-customer {
+    margin-bottom: 20px;
+  }
+  
+  .table-item {
+    table-layout: fixed;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .modal-content {
+    background-color: white;
+    width: 60%;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .close {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  #cancel-reasons {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-buttons {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .modal-button {
+    padding: 8px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #cancel-yes {
+    background-color: #dc3545; 
+  }
+  
+  #cancel-no {
+    background-color: #007bff; 
+  }
+  
+  .modal-button:hover {
+    opacity: 0.8;
+  }
+  
+  .modal-button:last-child {
+    margin-right: 0;
+  }
+  
+  .modal-button:hover {
+    background-color: #5666c1;
+  }
+
+  #other-reason-container {
+    display: none; /* Initially hidden */
+  }

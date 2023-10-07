@@ -1,0 +1,38 @@
+.menubar {
+    margin-top: 10px;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+}
+
+
+.menubar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menubar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menubar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    background-color: #9accd6;
+}
+
+.menubar i {
+    margin-right: 5px;
+}
+
+.menubar a:hover {
+    background-color: #4d87b6; 
+    border: 2px solid #3a749f; 
+}
